@@ -1,7 +1,12 @@
-require '/Users/davide/Projects/boris_bikes/lib/bike.rb'
+require_relative 'bike.rb'
 
 class DockingStation
   def release_bike
     bike = Bike.new
+  end
+
+  def dock_bike
+    true
+  #   @dock = dock
   end
 end

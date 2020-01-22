@@ -9,9 +9,9 @@ describe DockingStation do
       expect(subject.release_bike).to be_working
     end
   end
-  # context "check bike class is working" do
-  #   it "is true" do
-  #     expect(Bike.new).to exist
-  #   end
-  # end
+  context "dock bike to docking station"
+    it "is true" do
+      expect(subject.dock_bike).to be true
+  end
 end
+# context "dock bike to docking station and update attribute of docking station instance"
