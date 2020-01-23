@@ -1,4 +1,4 @@
-require_relative 'bike.rb'
+require_relative './bike.rb'
 
 class DockingStation
   def release_bike
@@ -7,6 +7,5 @@ class DockingStation
 
   def dock_bike
     true
-  #   @dock = dock
   end
 end
