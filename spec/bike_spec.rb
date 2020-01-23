@@ -1,7 +1,8 @@
-# Define filenmae to run test on
-require "bike"
+
+require 'bike'
+
 describe Bike do
-  context "check if working method exists" do
-    it { is_expected.to respond_to(:working?)}
-  end
+    it 'checks if bike is working' do
+        expect(subject).to respond_to :working?
+    end
 end
