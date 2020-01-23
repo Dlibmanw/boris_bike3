@@ -11,3 +11,5 @@ describe DockingStation do
     end 
 end 
 
+
+sophie is cool 
