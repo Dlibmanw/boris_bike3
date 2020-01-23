@@ -6,9 +6,11 @@ class DockingStation
 attr_reader :bike  
 
   def release_bike
+   raise "error" unless @bike 
+  return @bike
     # use an isntance variable to store the bike 
-    #int he 'state' of this instance
-    bike = Bike.new
+    #in the 'state' of this instance
+    # bike = Bike.new
   end
 
   def dock(bike)
